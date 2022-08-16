@@ -7,3 +7,16 @@ create table test(
 )engine=innodb default charset=utf8mb4 comment='测试';
 
 insert into test(`id`,`username`,`password`) values(1,"zhangsan","1234567890");
+
+
+###################
+
+
+drop table if exists `demo`;
+create table demo(
+    `id` int not null,
+    `username` varchar (50),
+    primary key (`id`)
+)engine=innodb default charset=utf8mb4 comment='demo';
+
+insert into demo(`id`,`username`) values(1,"zhangsan");
