@@ -1,5 +1,6 @@
 package com.imooc.wiki.resp;
 
+
 public class CommonResp<T> {
 
     /**

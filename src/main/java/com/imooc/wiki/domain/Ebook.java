@@ -2,7 +2,6 @@ package com.imooc.wiki.domain;
 
 public class Ebook {
     private Long id;
-
     private String name;
 
     private Long category1Id;
